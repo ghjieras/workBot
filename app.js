@@ -2,7 +2,7 @@ const fs = require("fs")
 const express = require("express")
 const linebot = require("linebot")
 // const planData = require("./data.js").plan
-
+// lienbot內容
 var bot = linebot({
   channelId: "1657339713",
   channelSecret: "e4432011e329121728753443c0025196",
