@@ -63,7 +63,7 @@ bot.listen('/linewebhook', 3000, () => {
 })
 
 
-
+ 
 
 function readData (Msg) {
   let data = fs.readFileSync("./data.json", "utf-8")
