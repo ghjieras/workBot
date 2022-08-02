@@ -1,2 +1,2 @@
-web: npm install
 web: gunicorn app.js:app –preload
+web: npm install
